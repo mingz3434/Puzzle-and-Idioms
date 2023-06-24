@@ -31,8 +31,11 @@ public class _Director : MonoBehaviour
                 if (!((UI_Top)u1).char2) { Debug.LogError("(MyMsg) UI_Top@dir: #char2 has not bound yet!"); } else {Debug.Log("#char2 has bound.");}
                 if (!((UI_Top)u1).char3) { Debug.LogError("(MyMsg) UI_Top@dir: #char3 has not bound yet!"); } else {Debug.Log("#char3 has bound.");}
                 if (!((UI_Top)u1).char4) { Debug.LogError("(MyMsg) UI_Top@dir: #char4 has not bound yet!"); } else {Debug.Log("#char4 has bound.");}
+                if (!((UI_Top)u1).missingTile) { Debug.LogError("(MyMsg) UI_Top@dir: #missingTile has not bound yet!"); } else {Debug.Log("#missingTile has bound.");}
             })                
             .AddTo(this);
+
+    
     }
 }
 

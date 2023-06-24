@@ -3628,6 +3628,7 @@ m_PackageAssets:
         - 1.0.6
         - 2.0.2
         - 2.0.3
+        - 2.0.4
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3637,6 +3638,7 @@ m_PackageAssets:
         - 1.0.6
         - 2.0.2
         - 2.0.3
+        - 2.0.4
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3912,6 +3914,8 @@ m_PackageAssets:
         - 8.0.1
         - 9.0.0-pre.1
         - 9.0.0-pre.2
+        - 9.0.0
+        - 9.0.1
         compatible:
         - 4.0.3
         - 4.0.4
@@ -3970,7 +3974,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 2D
-      type: 
+      type: asset
       description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
         splines) in EditorWindows and the SceneView."
       status: 4
@@ -4014,7 +4018,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
